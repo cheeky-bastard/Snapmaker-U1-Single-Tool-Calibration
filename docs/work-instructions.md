@@ -118,3 +118,7 @@ Share results in [the calibration project's issues](https://github.com/cheeky-ba
 - Validation tolerances and PASS/FAIL, web UI used, and relevant error text if present.
 
 The project remains an experimental optional usermod while wider testing is collected. Upstream submission is deferred.
+
+## Restored downloads — 2026-11-14
+
+The maintained project is now under `cheeky-bastard`. Use the [2.0 release](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/releases/tag/calibration-2.0-restored-1-1) or [2.1 release](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/releases/tag/calibration-2.1-restored-1-1). Each release includes a full image, SHA-256 checksum, CFG, source identity and testing instructions. The CFG is unchanged; installing it alone does not install the native Python support or nozzle workaround. Obtain verified backups and test the exact new image before relying on it.

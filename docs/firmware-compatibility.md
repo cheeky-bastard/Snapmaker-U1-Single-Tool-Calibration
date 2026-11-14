@@ -84,3 +84,5 @@ PR760 subsequently completed default validation (16 checks), tight-limit warning
 
 Repository restored under `cheeky-bastard` on 2026-11-14. The former `cheekyb52` repositories were removed. Historical source banners, copyright notices, saved test records and payload hashes are preserved; old URLs in those records identify their original provenance. Current project and build links use the new account. The stable `cheeky_b52` mod namespace is retained for compatibility. No printer configuration or calibration data is included.
 
+
+Restoration CI passed for both pinned firmware lines: 64 calibration regressions, eight nozzle checks, six packed hashes, container round trips, and header/MCU preservation per image. Source, CFG and guard bytes match the prior reviewed payloads. New-image hardware acceptance remains pending. [2.0 evidence](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/actions/runs/43561241022); [2.1 evidence](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/actions/runs/43561270736).
