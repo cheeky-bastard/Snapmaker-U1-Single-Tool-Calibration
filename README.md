@@ -1,6 +1,6 @@
 # Snapmaker U1 Single Tool Calibration
 
-**Project version: 0.2.0-dev2 | Updated: 2026-11-14**
+**Project version: 0.2.0-dev2 | Updated: 2026-11-18**
 
 **Button-start update:** CFG `0.1.1` starts T1/T2/T3 directly from their buttons. Separate backup acknowledgement is optional and disabled by default. Native Python payloads are unchanged. The new CFG has offline coverage; the 2026-10-17 live evidence below used CFG `0.1.0`.
 
@@ -28,15 +28,17 @@ Profiles match all three native source hashes, rather than a release label. PR76
 Repository restored under `cheeky-bastard` on 2026-11-14. The former `cheekyb52` repositories were removed. Historical source banners, copyright notices, saved test records and payload hashes are preserved; old URLs in those records identify their original provenance. Current project and build links use the new account. The stable `cheeky_b52` mod namespace is retained for compatibility. No printer configuration or calibration data is included.
 
 
-The project is being restored under [cheeky-bastard](https://github.com/cheeky-bastard).
-The same reviewed calibration/native/CFG payloads and pinned firmware bases are retained:
+The project is maintained under [cheeky-bastard](https://github.com/cheeky-bastard).
+The calibration native patch, macro CFG, nozzle workaround and exact source guards are unchanged.
 
-| Firmware | Source base | Downloads |
+| Firmware | Current source | Downloads |
 | --- | --- | --- |
-| 2.0 | `2c80e3dc495fdf724bc53c5c35c875010ee1668f` / stock 2.0.0.205 | [2.0 test builds](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/releases) |
-| 2.1 | `36fbd40c63ad83818ef3a7b2f8facef48814dd58` / stock 2.1.0.157 | [Separate 2.1 test builds](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/releases) |
+| 2.0 | Stock 2.0.0.205; existing `2c80e3dc495fdf724bc53c5c35c875010ee1668f` source with stable main `0de1a77da137d8a7af3ed1af36ae7c6fb70c3a5a` merged | [Current 2.0 image](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/releases/tag/calibration-2.0-restored-1-1) |
+| 2.1 | Stock 2.1.0.157; Paxx develop `4eda2d5191adca26c32033166fe5dfab150c2ce3` | [Latest 2.1 image](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/releases/tag/calibration-2.1-synced-2-1) |
 
-Both restored images passed their new build and release checks: **64 calibration regressions, eight nozzle-validation checks, six packed-payload hashes, firmware container round trips, and header/extra-MCU preservation per build**. [2.0 build and verification](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/actions/runs/43561241022); [2.1 build and verification](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/actions/runs/43561270736). Download the [restored 2.0 image](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/releases/tag/calibration-2.0-restored-1-1) or [separate restored 2.1 image](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/releases/tag/calibration-2.1-restored-1-1). Public checksums and build source identities are verified. Earlier automated and live results remain historical evidence for their exact source/image sets. The new images require their own printer acceptance.
+**2026-11-18 sync:** The 2.1 update includes 19 upstream commits for camera handling, Spoolman/SpoolLink, Pushraker notifications and component updates. Its [new CI run](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/actions/runs/44243530475) passed **64 calibration regressions, eight nozzle checks, six packed-payload hashes, firmware container round trips and header/extra-MCU preservation**. Public checksums and source identity are verified. All six checked native/config payload hashes match the previous reviewed image. New-image hardware acceptance is pending.
+
+The 2.0 stable-main merge changes repository history and documentation only: stable main has the same source tree as its already-included common ancestor. Its firmware payload and [previous successful build](https://github.com/cheeky-bastard/SnapmakerU1-Extended-Firmware/actions/runs/43561241022) remain unchanged, so no 2.0 rebuild was needed. Earlier live and automated results remain specific to their original images.
 
 Both firmware lines include the independent calibration native patch and the separately guarded mixed-nozzle print-start workaround. The 2.1 workaround preserves its newer automatic filament-replenishment behavior. Keep actual nozzle sizes correct in printer and slicer. Installing only the CFG does not install the Python changes.
 

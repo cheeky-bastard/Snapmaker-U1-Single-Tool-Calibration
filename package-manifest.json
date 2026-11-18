@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12317,
-      "sha256": "ae5557fd5c7571f427366a8131b9ee472cddb89dcf8ecc36d6fb5116de3dcde6"
+      "bytes": 12514,
+      "sha256": "e8eb9a57e4ac64b4c810de9fe1588e96383ada46ffa8285a2b78a75b16e1ff52"
     },
     {
       "path": "docs/changes.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "docs/codex-handoff.md",
-      "bytes": 9749,
-      "sha256": "1b27ec1299400f2650d46ca1ba2450d6e570d35c3174b7000fe8c26f70ec391a"
+      "bytes": 10763,
+      "sha256": "8ab62066b17bbf53384cd9ba39e1147591c8b36a83f6ab68f5d3facd640f26c4"
     },
     {
       "path": "docs/development.md",
@@ -48,8 +48,8 @@
     },
     {
       "path": "docs/firmware-compatibility.md",
-      "bytes": 11470,
-      "sha256": "451d2542ede2f29ef8d1371c87d4d2e2a5821163e07f0d83046f63a50c99f548"
+      "bytes": 12484,
+      "sha256": "d45b85c45809d23827281a178d99e1b730c1170addfc259ca31d01cc92d11b0e"
     },
     {
       "path": "docs/implementation.md",
@@ -78,8 +78,8 @@
     },
     {
       "path": "docs/work-instructions.md",
-      "bytes": 10223,
-      "sha256": "05a92e8231b6dc936aa16f1b55986ebdcd553be4a71e8010aedcab771e2c0c2f"
+      "bytes": 11237,
+      "sha256": "b9348046f0a01f5c27fd538a35c056c2c56ca0c40b28e6e8cdcdd3487289792e"
     },
     {
       "path": "overlays/mods/tooloffsets/01-native/patches/home/lava/klipper/01_independent_tool_offsets.patch",
@@ -94,7 +94,7 @@
     {
       "path": "privacy-report.json",
       "bytes": 244,
-      "sha256": "feb9bce823bee19afaa813bc119ed5092c78830f3f34bd82253ffc74ce924816"
+      "sha256": "c4b04a5e959524819b7c991923a914bd5e4ec5f28f1cd1137f9aaf27c687b222"
     },
     {
       "path": "profiles/paxx-2.0-pr760/01-native/patches/home/lava/klipper/01_independent_tool_offsets.patch",

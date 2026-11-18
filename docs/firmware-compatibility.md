@@ -4,7 +4,12 @@ title: Firmware Compatibility
 
 # Firmware Compatibility
 
-**Project version: 0.2.0-dev2 | Updated: 2026-10-29**
+## Upstream sync — 2026-11-18
+
+The 2.0 line merges stable main `0de1a77da137d8a7af3ed1af36ae7c6fb70c3a5a` without firmware source changes; keep its existing 2.0.0.205 base and current image. The 2.1 line now includes Paxx develop `4eda2d5191adca26c32033166fe5dfab150c2ce3` (19 newer commits). Stock firmware 2.1.0.157, all nine custom runtime/guard files and six packed-payload expectations are unchanged. The new full-image CI passed 64 calibration regressions, eight nozzle checks, six packed hashes, container round trips and header/MCU preservation. [Download the synced 2.1 image](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/releases/tag/calibration-2.1-synced-2-1); [CI evidence](https://github.com/cheeky-bastard/Fork-SnapmakerU1-Extended-Firmware_2.1/actions/runs/44243530475). New-image hardware acceptance remains pending. Both repositories include current stable-main history; only the 2.1 repository follows develop. Upstream remains read-only and no PR is authorized.
+
+
+**Project version: 0.2.0-dev2 | Updated: 2026-11-18**
 
 ## Separate firmware build lines — 2026-10-29
 
